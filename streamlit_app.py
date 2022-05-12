@@ -51,9 +51,9 @@ streamlit.write('The user entered', fruit_choice)
 #streamlit.stop()
 
 
-my_data_rows = my_cur.fetchall()
-streamlit.header("The fruit load list contains:")
-streamlit.dataframe(my_data_rows)
+#my_data_rows = my_cur.fetchall()
+#streamlit.header("The fruit load list contains:")
+#streamlit.dataframe(my_data_rows)
 
 #Allow the end User to add a fruit to the list
 def insert_row_snowflake(new_fruit):
